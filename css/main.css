@@ -1,0 +1,87 @@
+
+
+a{
+    text-decoration: none;
+    color: inherit;
+}
+a:hover{
+    color: inherit;
+}
+.photo{
+    width: 250px;
+    height: 250px;
+    position: absolute;
+    right: 500px;
+    top: 50px;
+}
+
+.albom{
+    background: #f5f5f5;
+     
+
+    padding-top: 70px ;
+    padding-left: 70px ;
+}
+.mail_address{
+    font-size: 18px ;
+    font-weight: normal;
+    color: #191919;
+
+}
+.mail_address span{
+    font-weight: bolder;
+}
+.title{
+    margin-top: 20px;
+    text-transform: uppercase;
+    font-size: 90px;
+    font-weight: 300;
+    position: relative;
+}
+.title span{
+    font-weight: bold;
+    line-height: 0.1;
+    position: absolute;
+    left: 0;
+    bottom: -22px;
+}
+.subtitle{
+    margin-top: 100px;
+    font-size: 24px;
+}
+
+.list_skill_li{
+    font-weight: bold;
+    text-transform: uppercase;
+    display: flex;
+    justify-content: space-between;
+
+}
+.list_skill_li span{
+    margin-right: 50px;
+}
+.all{
+    position: relative;
+}
+
+.all:before{
+    position: absolute;
+    content: "";
+    width: 300px;
+    height: 3px;
+    background: #000;
+    left: 0;
+    bottom: 0;
+}
+.css:before{
+    width: 320px;
+}
+.js:before{
+    width: 100px;
+}
+.python:before{
+    width: 70px;
+}
+.java:before{
+    width: 150px;
+}
